@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>CarSim与Matlab/Simulink联合仿真</title>
+      <link href="/2024/01/16/Car-Sim%E4%B8%8EMatlab%E8%81%94%E5%90%88%E4%BB%BF%E7%9C%9F%20-%20%E5%89%AF%E6%9C%AC%20(6)/"/>
+      <url>/2024/01/16/Car-Sim%E4%B8%8EMatlab%E8%81%94%E5%90%88%E4%BB%BF%E7%9C%9F%20-%20%E5%89%AF%E6%9C%AC%20(6)/</url>
+      
+        <content type="html"><![CDATA[<h1 id="联合仿真系统搭建"><a href="#联合仿真系统搭建" class="headerlink" title="联合仿真系统搭建"></a>联合仿真系统搭建</h1><p><a href="https://www.carsim.com/">CarSim官网</a></p><h1 id="CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的速度跟踪控制"><a href="#CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的速度跟踪控制" class="headerlink" title="CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的速度跟踪控制"></a>CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的速度跟踪控制</h1><h1 id="CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的轨迹跟踪控制"><a href="#CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的轨迹跟踪控制" class="headerlink" title="CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的轨迹跟踪控制"></a>CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的轨迹跟踪控制</h1><p>将状态预测表示为矩阵形式：<br>$$X_k&#x3D;\begin{bmatrix}A \ A^2 \：\A^{Np} \end{bmatrix}x(k)+\begin{bmatrix}         B        &amp;   …     &amp;  0  &amp;  0 \<br>                 A^1B      &amp;    B      &amp; … &amp;   0\<br>                  …      &amp;   …     &amp; … &amp;  … \<br>                 A^{Np-1}B &amp; A^{Np-2}B &amp; … &amp;  B   \end{bmatrix}U_k$$</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CarSim与Matlab/Simulink联合仿真</title>
+      <link href="/2024/01/16/Car-Sim%E4%B8%8EMatlab%E8%81%94%E5%90%88%E4%BB%BF%E7%9C%9F%20-%20%E5%89%AF%E6%9C%AC%20(5)/"/>
+      <url>/2024/01/16/Car-Sim%E4%B8%8EMatlab%E8%81%94%E5%90%88%E4%BB%BF%E7%9C%9F%20-%20%E5%89%AF%E6%9C%AC%20(5)/</url>
+      
+        <content type="html"><![CDATA[<h1 id="联合仿真系统搭建"><a href="#联合仿真系统搭建" class="headerlink" title="联合仿真系统搭建"></a>联合仿真系统搭建</h1><p><a href="https://www.carsim.com/">CarSim官网</a></p><h1 id="CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的速度跟踪控制"><a href="#CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的速度跟踪控制" class="headerlink" title="CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的速度跟踪控制"></a>CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的速度跟踪控制</h1><h1 id="CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的轨迹跟踪控制"><a href="#CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的轨迹跟踪控制" class="headerlink" title="CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的轨迹跟踪控制"></a>CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的轨迹跟踪控制</h1><p>将状态预测表示为矩阵形式：<br>$$X_k&#x3D;\begin{bmatrix}A \ A^2 \：\A^{Np} \end{bmatrix}x(k)+\begin{bmatrix}         B        &amp;   …     &amp;  0  &amp;  0 \<br>                 A^1B      &amp;    B      &amp; … &amp;   0\<br>                  …      &amp;   …     &amp; … &amp;  … \<br>                 A^{Np-1}B &amp; A^{Np-2}B &amp; … &amp;  B   \end{bmatrix}U_k$$</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CarSim与Matlab/Simulink联合仿真</title>
+      <link href="/2024/01/16/Car-Sim%E4%B8%8EMatlab%E8%81%94%E5%90%88%E4%BB%BF%E7%9C%9F%20-%20%E5%89%AF%E6%9C%AC%20(4)/"/>
+      <url>/2024/01/16/Car-Sim%E4%B8%8EMatlab%E8%81%94%E5%90%88%E4%BB%BF%E7%9C%9F%20-%20%E5%89%AF%E6%9C%AC%20(4)/</url>
+      
+        <content type="html"><![CDATA[<h1 id="联合仿真系统搭建"><a href="#联合仿真系统搭建" class="headerlink" title="联合仿真系统搭建"></a>联合仿真系统搭建</h1><p><a href="https://www.carsim.com/">CarSim官网</a></p><h1 id="CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的速度跟踪控制"><a href="#CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的速度跟踪控制" class="headerlink" title="CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的速度跟踪控制"></a>CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的速度跟踪控制</h1><h1 id="CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的轨迹跟踪控制"><a href="#CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的轨迹跟踪控制" class="headerlink" title="CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的轨迹跟踪控制"></a>CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的轨迹跟踪控制</h1><p>将状态预测表示为矩阵形式：<br>$$X_k&#x3D;\begin{bmatrix}A \ A^2 \：\A^{Np} \end{bmatrix}x(k)+\begin{bmatrix}         B        &amp;   …     &amp;  0  &amp;  0 \<br>                 A^1B      &amp;    B      &amp; … &amp;   0\<br>                  …      &amp;   …     &amp; … &amp;  … \<br>                 A^{Np-1}B &amp; A^{Np-2}B &amp; … &amp;  B   \end{bmatrix}U_k$$</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CarSim与Matlab/Simulink联合仿真</title>
+      <link href="/2024/01/16/Car-Sim%E4%B8%8EMatlab%E8%81%94%E5%90%88%E4%BB%BF%E7%9C%9F%20-%20%E5%89%AF%E6%9C%AC%20(3)/"/>
+      <url>/2024/01/16/Car-Sim%E4%B8%8EMatlab%E8%81%94%E5%90%88%E4%BB%BF%E7%9C%9F%20-%20%E5%89%AF%E6%9C%AC%20(3)/</url>
+      
+        <content type="html"><![CDATA[<h1 id="联合仿真系统搭建"><a href="#联合仿真系统搭建" class="headerlink" title="联合仿真系统搭建"></a>联合仿真系统搭建</h1><p><a href="https://www.carsim.com/">CarSim官网</a></p><h1 id="CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的速度跟踪控制"><a href="#CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的速度跟踪控制" class="headerlink" title="CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的速度跟踪控制"></a>CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的速度跟踪控制</h1><h1 id="CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的轨迹跟踪控制"><a href="#CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的轨迹跟踪控制" class="headerlink" title="CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的轨迹跟踪控制"></a>CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的轨迹跟踪控制</h1><p>将状态预测表示为矩阵形式：<br>$$X_k&#x3D;\begin{bmatrix}A \ A^2 \：\A^{Np} \end{bmatrix}x(k)+\begin{bmatrix}         B        &amp;   …     &amp;  0  &amp;  0 \<br>                 A^1B      &amp;    B      &amp; … &amp;   0\<br>                  …      &amp;   …     &amp; … &amp;  … \<br>                 A^{Np-1}B &amp; A^{Np-2}B &amp; … &amp;  B   \end{bmatrix}U_k$$</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CarSim与Matlab/Simulink联合仿真</title>
+      <link href="/2024/01/16/Car-Sim%E4%B8%8EMatlab%E8%81%94%E5%90%88%E4%BB%BF%E7%9C%9F%20-%20%E5%89%AF%E6%9C%AC%20(2)/"/>
+      <url>/2024/01/16/Car-Sim%E4%B8%8EMatlab%E8%81%94%E5%90%88%E4%BB%BF%E7%9C%9F%20-%20%E5%89%AF%E6%9C%AC%20(2)/</url>
+      
+        <content type="html"><![CDATA[<h1 id="联合仿真系统搭建"><a href="#联合仿真系统搭建" class="headerlink" title="联合仿真系统搭建"></a>联合仿真系统搭建</h1><p><a href="https://www.carsim.com/">CarSim官网</a></p><h1 id="CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的速度跟踪控制"><a href="#CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的速度跟踪控制" class="headerlink" title="CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的速度跟踪控制"></a>CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的速度跟踪控制</h1><h1 id="CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的轨迹跟踪控制"><a href="#CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的轨迹跟踪控制" class="headerlink" title="CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的轨迹跟踪控制"></a>CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的轨迹跟踪控制</h1><p>将状态预测表示为矩阵形式：<br>$$X_k&#x3D;\begin{bmatrix}A \ A^2 \：\A^{Np} \end{bmatrix}x(k)+\begin{bmatrix}         B        &amp;   …     &amp;  0  &amp;  0 \<br>                 A^1B      &amp;    B      &amp; … &amp;   0\<br>                  …      &amp;   …     &amp; … &amp;  … \<br>                 A^{Np-1}B &amp; A^{Np-2}B &amp; … &amp;  B   \end{bmatrix}U_k$$</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CarSim与Matlab/Simulink联合仿真</title>
+      <link href="/2024/01/16/Car-Sim%E4%B8%8EMatlab%E8%81%94%E5%90%88%E4%BB%BF%E7%9C%9F%20-%20%E5%89%AF%E6%9C%AC/"/>
+      <url>/2024/01/16/Car-Sim%E4%B8%8EMatlab%E8%81%94%E5%90%88%E4%BB%BF%E7%9C%9F%20-%20%E5%89%AF%E6%9C%AC/</url>
+      
+        <content type="html"><![CDATA[<h1 id="联合仿真系统搭建"><a href="#联合仿真系统搭建" class="headerlink" title="联合仿真系统搭建"></a>联合仿真系统搭建</h1><h2 id="CarSim安装"><a href="#CarSim安装" class="headerlink" title="CarSim安装"></a>CarSim安装</h2><h2 id="SImulink"><a href="#SImulink" class="headerlink" title="SImulink"></a>SImulink</h2><p><a href="https://www.carsim.com/">CarSim官网</a></p><h1 id="CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的速度跟踪控制"><a href="#CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的速度跟踪控制" class="headerlink" title="CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的速度跟踪控制"></a>CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的速度跟踪控制</h1><h1 id="CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的轨迹跟踪控制"><a href="#CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的轨迹跟踪控制" class="headerlink" title="CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的轨迹跟踪控制"></a>CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的轨迹跟踪控制</h1><p>‘’’python<br>def function()<br>    print(“hello world!”)</p><p>‘’’</p><p>将状态预测表示为矩阵形式：<br>$$X_k&#x3D;\begin{bmatrix}A \ A^2 \：\A^{Np} \end{bmatrix}x(k)+\begin{bmatrix}         B        &amp;   …     &amp;  0  &amp;  0 \<br>                 A^1B      &amp;    B      &amp; … &amp;   0\<br>                  …      &amp;   …     &amp; … &amp;  … \<br>                 A^{Np-1}B &amp; A^{Np-2}B &amp; … &amp;  B   \end{bmatrix}U_k$$</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CarSim与Matlab/Simulink联合仿真</title>
+      <link href="/2023/11/30/Car-Sim%E4%B8%8EMatlab%E8%81%94%E5%90%88%E4%BB%BF%E7%9C%9F/"/>
+      <url>/2023/11/30/Car-Sim%E4%B8%8EMatlab%E8%81%94%E5%90%88%E4%BB%BF%E7%9C%9F/</url>
+      
+        <content type="html"><![CDATA[<h1 id="联合仿真系统搭建"><a href="#联合仿真系统搭建" class="headerlink" title="联合仿真系统搭建"></a>联合仿真系统搭建</h1><p><a href="https://www.carsim.com/">CarSim官网</a></p><h1 id="CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的速度跟踪控制"><a href="#CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的速度跟踪控制" class="headerlink" title="CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的速度跟踪控制"></a>CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的速度跟踪控制</h1><h1 id="CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的轨迹跟踪控制"><a href="#CarSim与Matlab-x2F-Simulink联合仿真-基于模型预测的轨迹跟踪控制" class="headerlink" title="CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的轨迹跟踪控制"></a>CarSim与Matlab&#x2F;Simulink联合仿真-基于模型预测的轨迹跟踪控制</h1><p>将状态预测表示为矩阵形式：<br>$$X_k&#x3D;\begin{bmatrix}A \ A^2 \：\A^{Np} \end{bmatrix}x(k)+\begin{bmatrix}         B        &amp;   …     &amp;  0  &amp;  0 \<br>                 A^1B      &amp;    B      &amp; … &amp;   0\<br>                  …      &amp;   …     &amp; … &amp;  … \<br>                 A^{Np-1}B &amp; A^{Np-2}B &amp; … &amp;  B   \end{bmatrix}U_k$$</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
